@@ -9,3 +9,17 @@ a {
 a:hover {
     color: red;
 }
+#main_title {
+    text-align: center;
+    color: navy;
+}
+
+body {
+    background: bisque;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+
+    margin: 20px;
+    padding: 20px;
+}
