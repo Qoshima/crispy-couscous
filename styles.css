@@ -1,0 +1,11 @@
+.profile-image{
+    max-width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+a {
+    color: green;
+}
+a:hover {
+    color: red;
+}
