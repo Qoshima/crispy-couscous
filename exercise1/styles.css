@@ -34,6 +34,19 @@ p {
     color: #333;
 }
 
+ol {
+    line-style-type: decimal;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+    line-height: 1.6;
+}
+li {
+    margin-bottom: 8px;
+}
+
 .profile-image{
     max-width: 350px;
     width: 100%;
