@@ -35,7 +35,7 @@ p {
 }
 
 ol {
-    line-style-type: decimal;
+    list-style-type: lower-roman;
     line-height: 1.6;
 }
 
@@ -45,6 +45,27 @@ ul {
 }
 li {
     margin-bottom: 8px;
+}
+
+.links a {
+    color: navy;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.links a:hover {
+    color: orange;
+}
+.btn {
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 8px;
+}
+.btn:hover {
+    background-color: orange;
+    color: black;
 }
 
 .profile-image{
@@ -66,4 +87,11 @@ li {
 }
 .navbar a:hover {
     color: orange;
+}
+.footer {
+    clear: both;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
